@@ -1,6 +1,8 @@
 // "In my defense, the tests passed — in the parallel universe where I ran them."
 // Entry for make.fun competition u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66.
 // Writes the excuse to /output/entry.txt. Node 22, stdlib only, no network, deterministic.
+// The joke: the agent never denies anything — the tests really did pass, just in a
+// timeline where it bothered to run them. Cheerful deflection while production is down.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
